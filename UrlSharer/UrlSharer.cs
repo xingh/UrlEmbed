@@ -73,9 +73,6 @@ namespace UrlSharer
             return urlInfo;
         }
 
-        public static void Main(string[] args)
-        {
-            GetUrlInfo("http://twitter.com/");
-        }
+       
     }
 }

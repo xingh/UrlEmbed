@@ -6,11 +6,11 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/ynrajasekhar/UrlSharer/blob/master/MIT-LICENSE</licenseUrl>
-    <projectUrl>https://github.com/ynrajasekhar/UrlSharer</projectUrl>
+    <licenseUrl>https://github.com/xingh/UrlSharer/blob/master/MIT-LICENSE</licenseUrl>
+    <projectUrl>https://github.com/xingh/UrlSharer</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>First commit</releaseNotes>
+    <releaseNotes>Upgrading functionality</releaseNotes>
     <copyright>$copyright$</copyright>
   </metadata>
 </package>
