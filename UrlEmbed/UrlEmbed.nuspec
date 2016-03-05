@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/xingh/UrlSharer/blob/master/MIT-LICENSE</licenseUrl>
-    <projectUrl>https://github.com/xingh/UrlSharer</projectUrl>
+    <licenseUrl>https://github.com/xingh/UrlEmbed/blob/master/MIT-LICENSE</licenseUrl>
+    <projectUrl>https://github.com/xingh/UrlEmbed</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Upgrading functionality</releaseNotes>

@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using UrlSharer;
+using UrlEmbed;
 
-namespace UrlSharer.Tests
+namespace UrlEmbed.Tests
 {
     [TestClass]
     public class UrlShareTest
@@ -10,21 +10,21 @@ namespace UrlSharer.Tests
         [TestMethod]
         public void GetTwitterInfo()
         {
-            UrlInfo info = UrlSharer.GetUrlInfo("http://twitter.com/");
+            UrlInfo info = UrlEmbed.GetUrlInfo("http://twitter.com/");
             Assert.AreEqual(info.Title, "Twitter");
         }
 
         [TestMethod]
         public void GetTwitterUserInfo()
         {
-            UrlInfo info = UrlSharer.GetUrlInfo("http://twitter.com/xingh/");
+            UrlInfo info = UrlEmbed.GetUrlInfo("http://twitter.com/xingh/");
             Assert.AreEqual(info.Title.Contains("xingh"), true);
         }
 
         [TestMethod]
         public void GetWikipediaInfo()
         {
-            UrlInfo info = UrlSharer.GetUrlInfo("https://en.wikipedia.org/wiki/Electrical_network");
+            UrlInfo info = UrlEmbed.GetUrlInfo("https://en.wikipedia.org/wiki/Electrical_network");
             Assert.AreEqual(info.Images[0].Contains(".png"), true);
         }
 

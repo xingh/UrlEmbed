@@ -6,8 +6,8 @@
     <ProjectGuid>{93D85C3E-7511-484E-9BCA-846E62B05DB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UrlSharer.Tests</RootNamespace>
-    <AssemblyName>UrlSharer.Tests</AssemblyName>
+    <RootNamespace>UrlEmbed.Tests</RootNamespace>
+    <AssemblyName>UrlEmbed.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UrlShareTest.cs" />
+    <Compile Include="UrlEmbedTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UrlSharer\UrlSharer.csproj">
+    <ProjectReference Include="..\UrlEmbed\UrlEmbed.csproj">
       <Project>{a8815a16-ca23-4387-b383-b01d9a38fc64}</Project>
-      <Name>UrlSharer</Name>
+      <Name>UrlEmbed</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

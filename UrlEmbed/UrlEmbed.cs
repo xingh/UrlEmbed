@@ -6,9 +6,9 @@ using System.Text;
 using System.Windows.Forms;
 using HtmlAgilityPack;
 using FastImage;
-namespace UrlSharer
+namespace UrlEmbed
 {
-    public class UrlSharer
+    public class UrlEmbed
     {
         public static UrlInfo GetUrlInfo(string url)
         {

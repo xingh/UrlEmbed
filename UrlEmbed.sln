@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlSharer", "UrlSharer\UrlSharer.csproj", "{A8815A16-CA23-4387-B383-B01D9A38FC64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlEmbed", "UrlEmbed\UrlEmbed.csproj", "{A8815A16-CA23-4387-B383-B01D9A38FC64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlSharer.Tests", "UrlSharer.Tests\UrlSharer.Tests.csproj", "{93D85C3E-7511-484E-9BCA-846E62B05DB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlEmbed.Tests", "UrlEmbed.Tests\UrlEmbed.Tests.csproj", "{93D85C3E-7511-484E-9BCA-846E62B05DB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
