@@ -1,6 +1,8 @@
 # UrlEmbed
 
-THIS IS NOT THE URLSHARER THATS ON NUGET. I AM REBUILDING THIS LIBRARY. 
+[![Build status](https://ci.appveyor.com/api/projects/status/3iq2q3wkx2k81wan/branch/master?svg=true)](https://ci.appveyor.com/project/xingh/urlembed/branch/master)
+
+
 - Rahul 
 
 
